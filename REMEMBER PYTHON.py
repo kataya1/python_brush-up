@@ -4,6 +4,8 @@ import os
 # pdb for debugging
 import pdb
 
+import collections
+
 data_types = ['strings',
               'numbers',
               'lists',
@@ -31,3 +33,30 @@ num.sort()
 print(num)
 arithmatics = ("+", "-", "*", 1)
 print(arithmatics)
+
+#lambda expresion
+lambda x: 3*x + 1
+
+def build_quadratic_function(a, b, c):
+    return lambda x: a*x**2 + b*x + c
+
+# f becomes of type function
+
+f = build_quadratic_function(2, 4, 5)
+f(3)
+f(6)
+
+build_quadratic_function(2 ,0, 9)(3)
+help(num.sort())
+
+#reading file
+# opening the input file #r+ is for reading and writing
+f = open('example.in','r')
+#loopr over the file for line in f:
+first_line = f.readline()
+second_line = f.readline()
+#setting the input variables and splitting input like 2 3 1 5 into variables
+row, column, min, max = tuple(map(int,first_line.split(' ')))
+
+#dont forget to close the file
+f.close()
