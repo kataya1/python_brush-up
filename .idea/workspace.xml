@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/REMEMBER PYTHON.py" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a92b20-91f1-480b-95d4-1f18b1a0abeb" name="Default" comment="added process time calculation to check effitency and debugger&#10;and updated python version 3.0">
-      <change afterPath="$PROJECT_DIR$/hashcode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REMEMBER PYTHON.py" beforeDir="false" afterPath="$PROJECT_DIR$/REMEMBER PYTHON.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1a92b20-91f1-480b-95d4-1f18b1a0abeb" name="Default" comment="added process time calculation to check effitency and debugger&#10;and updated python version 3.0" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +141,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1" />
+    <option name="y" value="18" />
     <option name="width" value="1376" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -173,22 +167,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="REMEMBERINGPYTHON" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="REMEMBERINGPYTHON" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="REMEMBER PYTHON.py" type="8704e2dd:PyFileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,9 +446,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -482,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49761525" weight="0.3283582" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49523053" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50224215" side_tool="true" visible="true" weight="0.32718894" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49775785" visible="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49775785" visible="true" weight="0.32718894" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
