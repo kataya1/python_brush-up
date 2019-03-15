@@ -1,0 +1,1 @@
+func = [(letter,num) for letter in 'abcd' for num in range(4)]
