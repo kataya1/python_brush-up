@@ -1,0 +1,7 @@
+DEBUG 2019-03-16 19:56:03,504 - this is a harmless debug message.
+INFO 2019-03-16 19:56:03,504 - just some useful info.
+WARNING 2019-03-16 19:56:03,504 - i'm sorry, but i can't do that
+ERROR 2019-03-16 19:56:03,504 - Did you just try to divide by zero?
+CRITICAL 2019-03-16 19:56:03,504 - the entire internt is down
+DEBUG 2019-03-16 19:56:03,505 - # comput the discriminant
+DEBUG 2019-03-16 19:56:03,505 - #compute the two roots
