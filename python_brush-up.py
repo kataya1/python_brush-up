@@ -63,16 +63,44 @@
 
 #i just added code runner extension to visual studio code but you can run code in the terminal by      <filename>.py, to run using runner ctrl + alt + n  to stop ctrl + alt + m 
 #<<<< LIST Comprehension >>>>
-nums = [1,2,3,4,5,6,7,8,99,9,0]
-func = []
-# -------------------------------
-# # for n in nums:
-# #     func.append(n*n)
-# func = [n*n for n in nums]
-# -------------------------------
-# func = [n for n in nums if n%2 == 0]
-# func = [(letter,num) for letter in 'abcd' for num in range(4)]
-numss = [1,2,3,4,2,1,2,1,1,1,3,4,5,6,7]
-myset = { n for n in numss}
-print(myset)
+# nums = [1,2,3,4,5,6,7,8,99,9,0]
+# func = []
+# # -------------------------------
+# # # for n in nums:
+# # #     func.append(n*n)
+# # func = [n*n for n in nums]
+# # -------------------------------
+# # func = [n for n in nums if n%2 == 0]
+# # func = [(letter,num) for letter in 'abcd' for num in range(4)]
+# numss = [1,2,3,4,2,1,2,1,1,1,3,4,5,6,7]
+# myset = { n for n in numss}
+# print(myset)
 # print("heldddlo",func)
+
+# #positional arguments 👌
+# def familyfirst(first_name,last_name):
+#     # print("hello", last_name, first_name)
+#     # a new way to format print
+#     print(f'hi {last_name} {first_name}!')
+#
+# familyfirst("naruto","uzumaki")
+# # you can call the parameter name from the function
+# familyfirst(last_name="uzumaki", first_name="naruto")
+
+# #exceptions 😊
+# try:
+#     age = int(input('Age: '))
+#     print(f'you are {age} years old')
+#     risk = 2000/age
+# except ValueError:
+#     print('type a number bitch!!!')
+# except ZeroDivisionError:
+#     print('age cannot be 0. bitch!!')
+# maybe you can add (except :)  just like that
+
+# modules 😁
+# you put functions in othre <file>.py and import them for usebility
+# import KgtoLbs
+# KgtoLbs.convertKgtoLbs(30)  #convert is a function in the KgtoLbs module
+# you could import functions directly  # from KgtoLbs import convertKgtoLbs  # you don't need to use KgtoLbs.convertKgtoLbs just call the function normaaly
+# from KgtoLbs import convertKgtoLbs as conv # to rename the function

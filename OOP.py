@@ -63,21 +63,19 @@
 '''Class methods are the third and final OOP method type to know. Class methods know about their class. They can’t access specific instance data, but they can call other static methods.
 Class methods don’t need self as an argument, but they do need a parameter called cls. This stands for class, and like self, gets automatically passed in by Python.
 Class methods are created using the @classmethod decorator.Class methods are possibly the more confusing method types of the three, but they do have their uses. Class methods can manipulate the class itself, which is useful when you’re working on larger, more complex projects.'''
-class DecoratorExample:
-  """ Example Class """
-  def __init__(self):
-    """ Example Setup """
-    print('Hello, World!') 
+# class DecoratorExample:
+#   """ Example Class """
+#   def __init__(self):
+#     """ Example Setup """
+#     print('Hello, World!') 
+#   @classmethod
+#   def example_function(cls):
+#     """ This method is a class method! """
+#     print('I\'m a class method!')
+#     cls.some_other_function()
+#   @staticmethod
+#   def some_other_function():
+#     print('Hello!')
 
-  @classmethod
-  def example_function(cls):
-    """ This method is a class method! """
-    print('I\'m a class method!')
-    cls.some_other_function()
-
-  @staticmethod
-  def some_other_function():
-    print('Hello!')
- 
-de = DecoratorExample()
-de.example_function()
+# de = DecoratorExample()
+# de.example_function()
