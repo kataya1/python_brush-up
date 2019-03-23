@@ -79,3 +79,26 @@ Class methods are created using the @classmethod decorator.Class methods are pos
 
 # de = DecoratorExample()
 # de.example_function()
+
+# #into 😐
+# class person:
+#   #hard codded class every one is named kataya
+#   def getName(self):
+#     print("kataya")
+#   def getAge(self):
+#     print("22")
+# p = person()
+# p.getAge()
+class person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  def getName(self):
+    return f'the name is {self.name}'
+  def getAge(self):
+    print(f'{self.name} is {self.age} years old')
+
+p = person("sasuke",21)
+k = person("naruto",31)
+print(p,k)
+print(p.getName(),k.getName())
