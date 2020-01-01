@@ -40,7 +40,7 @@
 # def build_quadratic_function(a, b, c):
 #     return lambda x: a*x**2 + b*x + c
 
-# # f becomes of type function
+# # f becomes of type functi
 
 # f = build_quadratic_function(2, 4, 5)
 # f(3)
@@ -104,3 +104,7 @@
 # KgtoLbs.convertKgtoLbs(30)  #convert is a function in the KgtoLbs module
 # you could import functions directly  # from KgtoLbs import convertKgtoLbs  # you don't need to use KgtoLbs.convertKgtoLbs just call the function normaaly
 # from KgtoLbs import convertKgtoLbs as conv # to rename the function
+
+# data passing
+# python doesn't pass by reference or by value. is passes by something called "object-reference-pass-by-value"
+# ex x = 3 , x is a var assigned to a reference of an object of value 3, you can reassign x to a d differenct referenece of an object or change the object itself which you will see in other vars that are assigned to a reference to that object  use id(x) to check unique id of the object 
