@@ -1,22 +1,22 @@
-# import sys
-# import random
-# import os
-# # pdb for debugging
-# import pdb
-
-# import collections
-
-# data_types = ['strings',
-#               'numbers',
-#               'lists',
-#               'tubles',
-#               'dictionaries']
-# # for debugging, after (pdb) appear in console n is for next and p followed
-# # by the variable to print the value of that specific variable.
-# # you can print multiple variables separated by a comma. q for quit and c for continue, l for list
-# # s to step into a subroutine(n doesn't do that) and r to return
-# # (Pdb)!b = "BBB" to assign a new value to a variable named b
-# # pdb.set_trace()
+import sys
+import random
+import os
+# pdb for debugging
+import pdb
+import collections
+print this li
+data_types = ['strings',
+              'numbers',
+              'lists',
+              'tubles',
+              'dictionaries']
+'''sitn'''
+# for debugging, after (pdb) appear in console n is for next and p followed
+# by the variable to print the value of that specific variable.
+# you can print multiple variables separated by a comma. q for quit and c for continue, l for list
+# s to step into a subroutine(n doesn't do that) and r to return
+# (Pdb)!b = "BBB" to assign a new value to a variable named b
+# pdb.set_trace()
 
 # print(data_types)
 # word = "see what print() can do"
