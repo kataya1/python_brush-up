@@ -10,6 +10,7 @@ data_types = ['strings',
               'lists',
               'tubles',
               'dictionaries']
+            
 '''sitn'''
 # for debugging, after (pdb) appear in console n is for next and p followed
 # by the variable to print the value of that specific variable.
@@ -25,7 +26,7 @@ data_types = ['strings',
 # quote = "\"he remembers that time when his father took him to see ice as he faced the firing squad\""
 # print(quote)
 # print("%s %s %s" % ('fromt the book that doesn\'t seem to end', quote, word))
-
+ 
 # num = [1, 2, 3]
 # num.insert(1, 4)
 # print(num)
