@@ -4,7 +4,7 @@ import os
 # pdb for debugging
 import pdb
 import collections
-print this li
+# print this li
 data_types = ['strings',
               'numbers',
               'lists',
@@ -94,9 +94,9 @@ data_types = ['strings',
 #     print(f'you are {age} years old')
 #     risk = 2000/age
 # except ValueError:
-#     print('type a number bitch!!!')
+#     print('type a number !!!')
 # except ZeroDivisionError:
-#     print('age cannot be 0. bitch!!')
+#     print('age cannot be 0. !!')
 # maybe you can add (except :)  just like that
 
 # modules 😁
